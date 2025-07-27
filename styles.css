@@ -1,0 +1,69 @@
+*{
+  font-family: Arial, san-serif;
+}
+body{
+  background-color: #000040;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+main{
+  width: 90%;
+  max-width: 30rem;
+}
+
+.title{
+  font-size: 2rem;
+  font-family: serif;
+  font-weight: 600;
+}
+.form{
+  display: flex;
+  flex-direction:column;
+  row-gap: 1rem;
+  padding: 2rem;
+}
+
+.output, .form{
+  border: 3px solid  white;
+  background-color: #2e3a5c;
+}
+
+.label{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.number-input, .convert-btn, .output{
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+.number-input{
+  background-color: black;
+  border: solid 1px white;
+  color: white;
+}
+
+.number-input:focus{
+  outline: solid 2px blue
+}
+
+.convert-btn{
+  background-color: orange;
+  border: solid 2px rgb(255, 120, 0);
+}
+
+.convert-btn:hover{
+  background-color: rgb(255, 120, 0);
+}
+
+.output{
+  display: none;
+  color: white;
+}
